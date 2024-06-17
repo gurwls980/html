@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: center;
+            flex-wrap: wrap; */
+        .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100%;
+            height: 1000px;
+        }
+
+        .box-a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 20px;
+            width: 700px;
+            height: 900px;
+        }
+
+        .box-b {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 0;
+            width: 100%;
+            height: 40%;
+        }
+
+        .box-c {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 0;
+            width: 100%;
+            height: 40%;
+        }
+
+
+        .box-d {
+            display: flex;
+            flex-direction: row;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 0;
+            width: 100%;
+            height: 40%;
+        }
+
+        .box-e {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            flex-wrap: wrap;
+            
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 0;
+            width: 100%;
+            height: 40%;
+        }
+
+        .boxs {
+            margin: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-a">
+            <div class="box-b">
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+            </div>
+            <div class="box-c">
+                <div class="boxs"></div>
+            </div>
+        </div>
+        <div class="box-a">
+            <div class="box-d">
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+            </div>
+            <div class="box-e">
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
