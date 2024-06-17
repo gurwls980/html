@@ -17,7 +17,6 @@
             const textValue = e.target.value;
             if(e.keyCode === 13) {
                 textList = [ ...textList, textValue ];
-                e.target.value = "";
                 console.log(textList);
                 localStorage.setItem("list", textList);
                 localStorage.setItem("list", JSON.stringify(textList));
